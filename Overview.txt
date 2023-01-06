@@ -1,0 +1,24 @@
+                                                                                                                              Overview Of page 
+
+1. First of All I initiated The react js app by this command - npx create-react-app sample
+
+2. Now according to the page content I created the folder named component , in which There are 1 CSS and 3 Js files , one for navbar , one for middle content ,
+    one for data cards . 
+
+3. For navbar and middle content we have index.css . 
+
+4. For data cards we have App.css and index.js .
+
+5. For data cards i randomly searched for Api and I got github users Api link which i fetched using Js to create the data cards . 
+
+6. I have imported Several images in  src folder which i used in page .
+
+7.  I have also created build folder for static page.
+
+8.  Unfortunately I haven't made page responsive but it can be made responsive by using media Query separately for mobile and  tablet  devices .
+
+9.  We can import media query by this command -> npm install --save media-query-react
+
+10. Or in place of Css files, we can use style  ={{ }} command within reactjs file itself. 
+
+
