@@ -1,13 +1,413 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+#logo img {
+  width: 47px;
+  height: 43px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.sign a {
+  text-decoration: none;
+  color: #1916d5;
+  font-weight: bolder;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+#logo {
+  margin: 35px 35px;
+}
+
+#navbar ul {
+  display: flex;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.text2 {
+  font-weight: bold;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1rem
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 2px 2px;
+  border-radius: 10px;
+  margin: 5px;
+  color: black;
+
+}
+
+#navbar ul li a:hover {
+  color: white;
+  background-color: black;
+}
+
+
+
+
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  height: 518px;
+
+}
+
+#home::before {
+  content: "";
+  background: url("./preview16.jpg") no-repeat center center/cover;
+  position: absolute;
+  height: 66%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+  top: 117px;
+  left: 0px;
+  opacity: 0.7;
+  background-size: 1612px;
+
+}
+
+.h-primary {
+  font-size: 3.8rem;
+  padding: 12px;
+  margin: 21px;
+}
+
+big #home h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#home p {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#home .What {
+
+  font-size: 39px;
+  font-weight: 200;
+}
+
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: rgb(237, 219, 13);
+  margin: 30px;
+  font-size: 1.5rem;
+  border-radius: 24px;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color: rgb(136, 130, 12);
+  color: black;
+
+}
+
+#services {
+  display: flex;
+  margin: 160px;
+
+}
+
+.container {
+  padding: 40px 20px 20px 20px;
+  width: 99%;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#card {
+  padding: 10px 20px 20px 20px;
+}
+
+#services .box img {
+  height: 160px;
+  display: block;
+  margin: auto;
+
+}
+
+#services .boxbig img {
+  height: 160px;
+  display: block;
+  margin: auto;
+}
+
+#services .boxbig {
+
+  padding: 34px;
+  margin: -145px 6px;
+  border-radius: 28px;
+
+
+}
+
+#services .box {
+
+  padding: 34px;
+  margin: -145px 6px;
+  border-radius: 28px;
+
+
+}
+
+#services .boxbig .box-1 {
+  background: url("./Types-of-Software-Development.webp") no-repeat center center/cover;
+
+  margin: -47px -10px;
+  height: 221px;
+  width: 528px;
+
+  margin-bottom: 10px;
+
+  align-items: center;
+  transition: transform .2s;
+  box-shadow: rgb(95 95 95 / 24%) 13px 12px 5px -2px;
+
+}
+
+#services .boxbig .box-1:hover {
+  transform: scale(1.02);
+  transition: transform .3s;
+}
+
+#services .boxbig .box-2:hover {
+  transform: scale(1.02);
+  transition: transform .3s;
+}
+
+
+#services .boxbig .box-2 {
+  background: url("./Accounting-banner.png") no-repeat center center/cover;
+
+  margin: -47px -10px;
+  height: 221px;
+  width: 528px;
+  box-shadow: rgb(95 95 95 / 24%) 13px 12px 5px -2px;
+
+}
+
+.services-container {
+  border-radius: 10px;
+  padding: 35px 20px;
+  min-width: 225px;
+
+  width: 100%;
+  min-height: 128px;
+  max-height: 154px;
+
+}
+
+#services .box .box-1 {
+  background: url("./chemistry.webp") no-repeat center center/cover;
+
+  margin: 36px -10px;
+  height: 148px;
+  width: 327px;
+  box-shadow: rgb(95 95 95 / 24%) 13px 12px 5px -2px;
+
+}
+
+#services .box .box-1:hover {
+  transform: scale(1.02);
+  transition: transform .3s;
+}
+
+#services .box .box-2:hover {
+  transform: scale(1.02);
+  transition: transform .3s;
+}
+
+#services .box .box-3:hover {
+  transform: scale(1.02);
+  transition: transform .3s;
+}
+
+#services .box .box-2 {
+  background: url("./Mathematics.webp") no-repeat center center/cover;
+
+  margin: 36px -10px;
+  height: 148px;
+  width: 327px;
+  box-shadow: rgb(95 95 95 / 24%) 13px 12px 5px -2px;
+
+}
+
+#services .box .box-3 {
+  background: url("./Biology.webp") no-repeat center center/cover;
+
+  margin: 36px -9px;
+  height: 148px;
+  box-shadow: rgb(95 95 95 / 24%) 13px 12px 5px -2px;
+  width: 327px;
+
+}
+
+input.form-control.me-2 {
+  margin-top: 88px;
+  margin-left: 1082px;
+  border-radius: 24px;
+  height: 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn.btn-outline-success {
+
+  font-size: 15px;
+}
+
+
+@media screen and (max-width:728px) {
+  #home {
+    height: 356px;
+    padding: 3px 68px;
+  }
+
+  #services .box .box-1 {
+    margin: -147px -19px;
+  }
+
+  #services .box .box-2 {
+    margin: -77px -19px;
+  }
+
+  #services .box .box-3 {
+    margin: -4px -19px;
+  }
+
+  #services .boxbig .box-1 {
+    margin: -137px -47px;
+    height: 221px;
+    width: 376px;
+  }
+
+  #services .boxbig .box-2 {
+    margin: -67px -47px;
+    height: 221px;
+    width: 376px;
+  }
+
+  #home::before {
+    height: 600px;
+    background-size: 740px;
+  }
+
+  #services {
+    flex-direction: column;
+  }
+
+  #services .boxbig {
+    margin: 50px -148px;
+  }
+
+  #services .box {
+
+    margin: 13px -148px;
+  }
+
+  #services .box img {
+    height: 81px;
+  }
+
+  .services-container::before {
+    height: 157%;
+    background-size: 735px;
+  }
+
+  #clients {
+    flex-wrap: wrap;
+  }
+
+  #clients img {
+    width: 66px;
+    padding: 6px;
+    height: auto;
+  }
+
+  #client-section {
+    top: -143px;
+  }
+
+  #navbar {
+    flex-direction: column;
+  }
+
+  #home p {
+    font-size: 13px;
+  }
+
+  .h-primary {
+    font-size: 41px;
+    margin: 5px
+  }
+
+  #client-section::before {
+    height: 88%;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  #clients img {
+    height: 53px;
+  }
+
+  #contact::before {
+    top: -186px;
+    height: 133%;
+  }
+
+  #contact-box form {
+    width: 80%;
+  }
+
+  .client-item {
+    padding: 11px;
+  }
 }
