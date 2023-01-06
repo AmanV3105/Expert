@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Expert/static/css/main.9d2f3688.css",
+    "main.js": "/Expert/static/js/main.c5bddee9.js",
+    "static/js/787.e577274b.chunk.js": "/Expert/static/js/787.e577274b.chunk.js",
+    "static/media/Mathematics.webp": "/Expert/static/media/Mathematics.6916de7ec44736bee31d.webp",
+    "static/media/askexperthead.jpg": "/Expert/static/media/askexperthead.4d804d23f4ee5e31ed7e.jpg",
+    "static/media/Accounting-banner.png": "/Expert/static/media/Accounting-banner.3c0133377f4c690f1454.png",
+    "static/media/chemistry.webp": "/Expert/static/media/chemistry.d7a17eb85ea19bb369e7.webp",
+    "static/media/Biology.webp": "/Expert/static/media/Biology.bce5e9003869bad364c5.webp",
+    "static/media/Types-of-Software-Development.webp": "/Expert/static/media/Types-of-Software-Development.11206a75636f826b393d.webp",
+    "static/media/preview16.jpg": "/Expert/static/media/preview16.e094db9c1e870012643f.jpg",
+    "index.html": "/Expert/index.html",
+    "main.9d2f3688.css.map": "/Expert/static/css/main.9d2f3688.css.map",
+    "main.c5bddee9.js.map": "/Expert/static/js/main.c5bddee9.js.map",
+    "787.e577274b.chunk.js.map": "/Expert/static/js/787.e577274b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d2f3688.css",
+    "static/js/main.c5bddee9.js"
+  ]
+}
